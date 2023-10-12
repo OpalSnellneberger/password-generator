@@ -40,7 +40,7 @@ function generatePassword() {
     if (failed) {
       prompt += "\nPress Cancel to Cancel password creation";
     }
-    let input = window.prompt(prompt);
+    let input = window.prompt(prompt,'ULSN');
     if (input == null) {
       abort = true;
     } else { 
